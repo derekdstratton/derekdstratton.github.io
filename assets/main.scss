@@ -1,0 +1,115 @@
+---
+---
+
+$text-color: #c9d1d9;
+$background-color: #0d1117;
+$brand-color: #58a6ff;
+$grey-color: #8b949e;
+$grey-color-light: #30363d;
+$grey-color-dark: #f0f6fc;
+
+@import "minima";
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: $background-color;
+}
+
+.site-header {
+  background-color: #010409;
+  border-top-color: $brand-color;
+  border-bottom-color: #21262d;
+}
+
+.site-footer {
+  background-color: #010409;
+  border-top-color: #21262d;
+}
+
+a,
+a:visited {
+  color: $brand-color;
+}
+
+a:hover {
+  color: $grey-color-dark;
+}
+
+pre,
+code,
+.highlight,
+.highlighter-rouge .highlight {
+  color: $text-color;
+  background-color: #161b22;
+  border-color: $grey-color-light;
+}
+
+.highlight {
+  .c,
+  .cm,
+  .c1,
+  .cs,
+  .cp {
+    color: #8b949e;
+  }
+
+  .k,
+  .kc,
+  .kd,
+  .kp,
+  .kr,
+  .o,
+  .ow {
+    color: #ff7b72;
+  }
+
+  .s,
+  .s1,
+  .s2,
+  .sb,
+  .sc,
+  .sd,
+  .se,
+  .sh,
+  .si,
+  .sx,
+  .sr,
+  .ss {
+    color: #a5d6ff;
+  }
+
+  .m,
+  .mf,
+  .mh,
+  .mi,
+  .mo,
+  .il {
+    color: #79c0ff;
+  }
+
+  .na,
+  .nb,
+  .nc,
+  .no,
+  .nf,
+  .ni,
+  .ne,
+  .nv,
+  .vc,
+  .vg,
+  .vi {
+    color: #d2a8ff;
+  }
+
+  .nt {
+    color: #7ee787;
+  }
+}
+
+::selection {
+  color: $grey-color-dark;
+  background-color: #264f78;
+}

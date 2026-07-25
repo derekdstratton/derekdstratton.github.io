@@ -1,1 +1,0 @@
-# derekdstratton.github.io
